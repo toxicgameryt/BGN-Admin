@@ -3,8 +3,8 @@ const command = require('@util/command')
 const welcomeSchema = require('@schemas/welcome-schema')
 
 module.exports = (client) => {
-  //!setwelcome <message>
-  const cache = {} // guildId: [channelId, text]
+  
+  const cache = {} 
 
   command(client, 'setwelcome', async (message) => {
     const { member, channel, content, guild } = message
