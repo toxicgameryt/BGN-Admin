@@ -1,0 +1,26 @@
+{
+  "name": "bgn-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Toxic",
+  "license": "ISC",
+  "dependencies": {
+    "commando": "0.0.2",
+    "commando-provider-mongo": "^2.0.2",
+    "discord.js": "^12.5.1",
+    "discord.js-commando": "git+https://github.com/discordjs/Commando.git",
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.11.9"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@schemas": "./schemas",
+    "@util": "./util",
+    "@features": "./features/features",
+    "@commands": "./commands/command"
+  }
+}

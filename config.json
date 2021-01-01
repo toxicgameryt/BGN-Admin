@@ -1,0 +1,5 @@
+{
+    "token" : "Nzk0MDc5OTg1NTQ2OTUyNzE0.X-1mnQ.b5g2h3cNMvNI46cjOF6Um5BV1PQ",
+    "prefix" : ";",
+    "mongoPath" : "mongodb://localhost:27017/BGN_Admin"
+}
